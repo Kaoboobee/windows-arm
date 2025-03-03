@@ -34,7 +34,7 @@ ADD --chmod=664 https://github.com/qemus/virtiso-arm/releases/download/v0.1.266-
 VOLUME /storage
 EXPOSE 8006 3389
 
-ENV VERSION="11"
+ENV VERSION="10"
 ENV RAM_SIZE="4G"
 ENV CPU_CORES="2"
 ENV DISK_SIZE="64G"
