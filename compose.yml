@@ -1,6 +1,6 @@
 services:
   windows:
-    image: dockurr/windows
+    image: windows:latest
     container_name: windows
     environment:
       VERSION: "10"
