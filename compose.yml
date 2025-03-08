@@ -1,6 +1,6 @@
 services:
   windows:
-    image: windows:latest
+    image: dockurr/windows-arm
     container_name: windows
     environment:
       VERSION: "10"
